@@ -1,0 +1,19 @@
+{
+  "name": "image-resize",
+  "version": "1.0.0",
+  "description": "resize image",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Logan Miller",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.8"
+  },
+  "dependencies": {
+    "interactjs": "^1.4.0-beta.1",
+    "jquery": "^3.3.1",
+    "jquery-ui": "^1.12.1"
+  }
+}

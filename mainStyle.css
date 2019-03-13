@@ -1,0 +1,32 @@
+.resize-drag {
+    float: left;
+    position: absolute;
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 0px;
+
+    touch-action: none;
+    width: 120px;
+    height: 120px;
+    /* This makes things *much* easier */
+    background-color: (0,0,0,1);
+    border-style: solid;
+
+    box-sizing: border-box;
+  }
+  
+  .resize-container {
+    display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+    
+  }
+
+  img {
+      display: block;
+      margin: 0;
+      padding: 0;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
+  }
